@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles2.css" />
+</head>
+
+<body>
+  <center>
+    <div class="container">
+      <h1>Calculator</h1>
+      <div class="calculator">
+        <input id="input"/>
+        <table>
+          <tr>
+            <th><button value="1" onclick="insert('1')">1</button></th>
+            <th><button value="2" onclick="insert('2')">2</button></th>
+            <th><button value="3" onclick="insert('3')">3</button></th>
+            <th><button value="+" onclick="insert('+')">+</button></th>
+          </tr>
+          <tr>
+            <th><button value="4" onclick="insert('4')">4</button></th>
+            <th><button value="5" onclick="insert('5')">5</button></th>
+            <th><button value="6" onclick="insert('6')">6</button></th>
+            <th><button value="-" onclick="insert('-')">-</button></th>
+          </tr>
+          <tr>
+            <th><button value="7" onclick="insert('7')">7</button></th>
+            <th><button value="8" onclick="insert('8')">8</button></th>
+            <th><button value="9" onclick="insert('9')">9</button></th>
+            <th><button value="*" onclick="insert('*')">*</button></th>
+          </tr>
+          <tr>
+            <th><button value="0" onclick="insert('0')">0</button></th>
+            <th><button value="00" onclick="insert('00')">00</button></th>
+            <th><button value="." onclick="insert('.')">.</button></th>
+            <th><button value="/" onclick="insert('/')">/</button></th>
+            
+          </tr>
+          <tr>
+            <th><button value="(" onclick="insert('(')">(</button></th>
+            <th><button value=")" onclick="insert(')')">)</button></th>
+            <th><button id="ac" value="AC" onclick="clear()">AC</button></th>
+            <th><button value="=" onclick="equal()">=</button></th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </center>
+  <script src="script2.js" defer></script>
+</body>
+
+</html>
+© 2020 GitHub, Inc.
